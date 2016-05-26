@@ -1,0 +1,87 @@
+<resources>
+    <string name="app_name">Gradify</string>
+    <string name="subjects">Choose a Subject</string>
+    <string-array name="subjectsall">
+        <item>Select Course</item>
+        <item>Chemistry</item>
+        <item>Intro CS</item>
+        <item>Physics</item>
+        <item>Computer Programming</item>
+        <item>Personal Computer Lab</item>
+        <item>AssemblyProgramming</item>
+        <item>Discrete Math</item>
+        <item>Engineering Math</item>
+        <item>C Programming</item>
+        <item>Computer Organization</item>
+        <item>Data Structures</item>
+        <item>Systems Programming</item>
+        <item>Intro Data Processing</item>
+        <item>Programming Languages</item>
+        <item>DataBase</item>
+        <item>Operating System</item>
+        <item>Parallel Processing</item>
+        <item>Distributed Computing</item>
+        <item>Computer Network</item>
+        <item>Logics</item>
+        <item>Object Oriented Programming</item>
+        <item>CS Seminar</item>
+        <item>System Analysis</item>
+        <item>Numerical Analysis</item>
+        <item>Intro Info Systems</item>
+        <item>MultiMedia Systems</item>
+        <item>Intro Analysis</item>
+        <item>Formal Languages</item>
+        <item>Multimedia Systems</item>
+        <item>Into Analysis</item>
+        <item>Formal Languages</item>
+        <item>Data Communication</item>
+        <item>Simulation</item>
+        <item>Compiler</item>
+        <item>Software Engineering</item>
+        <item>Artificial Intelligence</item>
+        <item>Statistics</item>
+        <item>Microprocessor</item>
+        <item>Intro Internet</item>
+        <item>Engineering Lab</item>
+        <item>Intro Digital Eng</item>
+        <item>Digital Eng</item>
+        <item>Image Processing</item>
+        <item>Data Processing</item>
+        <item>Modern Programming</item>
+        <item>Digital Systems</item>
+        <item>Intro Computer Communication</item>
+        <item>Info Search</item>
+        <item>Comm System Design</item>
+        <item>Computer Eng</item>
+        <item>Logic Circut Lab</item>
+        <item>CS Education</item>
+        <item>CS Education 2</item>
+        <item>Embeded Systems</item>
+        <item>Bilo Informatics</item>
+        <item>Japanese 1</item>
+        <item>Japanese 2</item>
+        <item>Project</item>
+        <item>Web Programming</item>
+        <item>Mobile Programming</item>
+        <item>Windows Programming</item>
+        <item>Design Patterns</item>
+        <item>Adv Systems Programming</item>
+        <item>Computer Security</item>
+        <item>Enterprose Programming</item>
+        <item>Network Programming</item>
+        <item>Intern</item>
+        <item>Computer Programming 2</item>
+        <item>Programming App1</item>
+        <item>File Processing</item>
+        <item></item>
+
+    </string-array>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_stats_view2">StatsView2</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_piechart">piechart</string>
+</resources>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+
+    android:id="@+id/ScrollView01"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="horizontal"
+    android:fillViewport="true">
+
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hemantdave.gradify.MainActivity"
+    android:background="#448AFF"
+    android:theme="@style/Widget.AppCompat.ButtonBar">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:weightSum="1"
+            android:gravity="center">
+
+            <ImageView
+            android:layout_width="393dp"
+            android:layout_height="100dp"
+
+            android:id="@+id/imageView"
+            android:src="@drawable/b"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+                android:layout_weight="0.08" />
+
+            <EditText
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:ems="10"
+                android:hint="Student Id"
+                android:id="@+id/Student_id"
+                android:background="@layout/custom"
+                android:layout_marginTop="38dp"
+                android:layout_below="@+id/imageView"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView" />
+
+            <Spinner
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/t"
+
+                android:background="@layout/custom"
+                android:entries="@array/subjectsall"
+                android:spinnerMode="dialog"
+                android:layout_centerVertical="true"
+                android:layout_alignLeft="@+id/imageView"
+                android:layout_alignStart="@+id/imageView"
+                android:nestedScrollingEnabled="true"
+                android:accessibilityLiveRegion="assertive"
+                android:layout_marginTop="30sp" />
+
+            <Button
+            android:id="@+id/next"
+
+            android:text="GradifyME"
+            android:textColor="#fefefe"
+            android:textSize="30sp"
+
+            android:layout_width="270dp"
+            android:layout_height="60dp"
+            android:background="#d10924"
+            android:shadowColor="#A0A86F"
+            android:shadowDx="0"
+            android:shadowDy="0"
+            android:shadowRadius="5"
+            android:onClick="nextScreen"
+            android:layout_below="@+id/t"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="49dp"
+            android:theme="@style/Widget.AppCompat.ButtonBar" />
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</ScrollView>
